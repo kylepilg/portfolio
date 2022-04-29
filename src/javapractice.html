@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="..//assets/style/javapractice.css" />
+    <script
+      src="https://kit.fontawesome.com/fc3e0acc18.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <section id="landing-page">
@@ -14,7 +18,7 @@
           <img id="personal-logo" src="..//assets/images/logo.svg" alt="" />
         </figure>
         <ul class="nav__link--list">
-          <li class="nav__link--list">
+          <li class="nav__link">
             <a
               href="#"
               class="nav__link--achor link__hover-effect link__hover-effect--black"
@@ -22,7 +26,7 @@
             >
           </li>
 
-          <li class="nav__link--list">
+          <li class="nav__link">
             <a
               href="#"
               class="nav__link--achor link__hover-effect link__hover-effect--black"
@@ -30,15 +34,110 @@
             >
           </li>
 
-          <li class="nav__link--list">
+          <li class="nav__link">
             <a
               href="#"
               class="nav__link--achor link__hover-effect link__hover-effect--black"
               >Contact</a
             >
           </li>
+
+          <li class="nav__link click">
+            <a
+              href="#"
+              class="nav__link--achor link__hover-effect link__hover-effect--black"
+              ><i class="fa-solid fa-circle-half-stroke"></i
+            ></a>
+          </li>
         </ul>
       </nav>
+      <header class="header">
+        <div class="headercontent">
+          <h1 class="title">Hey</h1>
+          <h1 class="title orange">I'm Kyle.</h1>
+          <p class="header__para">
+            I'm a <b class="orange">Frontend Software Engineer</b> with a strong
+            passion for building web applications with great user experiences.
+            <br />
+            Here's a bit more <b class="orange">about me</b>.
+          </p>
+          <div class="social__list">
+            <a
+              href="https://google.com"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a
+              href="https://github.com/kylepilg"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a
+              href="..//assets/images/David Bragg Resume.pdf"
+              target="_blank"
+              class="social__link click"
+            >
+              <i class="fa-solid fa-file-pdf"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <button class="mail__btn click">
+        <i class="fa-solid fa-envelope"></i>
+      </button>
+      <a href="projects" class="scroll">
+        <div class="scroll__icon click"></div>
+      </a>
+    </section>
+    <section id="projects">
+      <div class="container">
+        <div class="row">
+          <h1 class="section__title">
+            Here are some of my <span class="orange">projects</span>
+          </h1>
+          <ul class="project__list">
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="../assets/images/blinker mockup.png"
+                  class="project__img"
+                  alt=""
+                />
+                <div class="project__wrapper--bg">
+                  <div class="project__description">
+                    <h3 class="project__description--title">
+                      Car Sales Projects
+                    </h3>
+                    <h4 class="projection__description__sub-title">
+                      Html, CSS, JavaScript, Vue
+                    </h4>
+                    <p class="project__description--para">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Tempora fugiat nulla vel corrupti quisquam consectetur
+                      saepe distinctio quis maiores ex, placeat recusandae
+                      molestiae illo quod. Et esse mollitia cumque nihil?
+                    </p>
+                    <div class="project__description--link">
+                      <a href="#" class="project__decription--link">
+                        <i class="fa-brands fa-github"></i>
+                      </a>
+                      <a href="#" class="project__decription--link">
+                        <i class="fas fa-link"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
   </body>
 </html>
